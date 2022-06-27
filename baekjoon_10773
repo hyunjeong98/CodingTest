@@ -1,0 +1,15 @@
+k = int(input())
+res = []
+sum = 0
+
+for i in range(k):
+    n = int(input())
+    if n != 0:
+        res.append(n)
+    else:
+        res.pop()
+
+for i in res:
+    sum += i
+     
+print(sum)
