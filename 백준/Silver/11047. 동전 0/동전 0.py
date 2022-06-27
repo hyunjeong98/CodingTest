@@ -6,8 +6,6 @@ for i in range(n):
     coin_list.append(int(input()))
 
 for coin in coin_list[::-1]:
-    if k == 0:
-        break
     if coin <= k:
         coin_count += k // coin
         k = k % coin
